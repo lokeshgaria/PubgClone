@@ -19,6 +19,7 @@ const useStyle = makeStyles((theme) => ({
   },
   navbar: {
     background: "black",
+    padding : "0",
   },
 
   tolbar: {
@@ -31,28 +32,30 @@ const Navbar = () => {
   //to toggle between hamburger icon
   const toggleClass = () => {
     setToggle(!toggle);
-    console.log(toggle);
+   
   };
-  //to toggle between social media icons
-  const toggleIcons = (e) => {};
+ 
+   
   const classes = useStyle();
 
   return (
     <>
-      <AppBar className={classes.navbar} component={Box} >
+      <AppBar className={classes.navbar} component={Box}  >
         <Toolbar className={classes.tolbar}>
           <Box>
             <img src={brand} alt="sd" className="BrandLogo" />
           </Box>
 
-          <Grid className="Navbox" component={Box} container>
+          <Grid className="Navbox" component={Box} container  >
             
             <Grid
               item
+               
               className={toggle ? "navlist nav" : "navlist nav falldown"} 
               xl={1}
-              lg={2}
-              sm={3}
+              lg={3}
+              md={3}
+              sm={12}
               xs={12}
               component={Box}
             >
@@ -85,10 +88,12 @@ const Navbar = () => {
 
             <Grid
               className="navlist "
+              
               item
               xl={1}
               lg={2}
               sm={3}
+              
               xs={12}
               component={Box}
               

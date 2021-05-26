@@ -7,7 +7,7 @@
 html{
     font-size: 62.5%;
 }
-
+ 
 .BrandLogo{
  padding: 7px;
  height: 50px;
@@ -45,6 +45,7 @@ html{
  
 .Navbox{
     justify-content: space-between;
+   
     display: flex;
      
 }
@@ -56,7 +57,7 @@ html{
     display: block;
     position: absolute;
     top: 11px;
-    right:0px;
+    right:22px;
     background: url(./assets/ShareSudoimg.png) center no-repeat;
     background-size: 12px 12px;
     opacity: 0.5;
@@ -83,10 +84,10 @@ html{
 .active{
     color :#ff9800;
 }
-.socialmedia i{
+.socialmedia a{
    color:#fff;
 }
-.socialmedia i:hover{
+.socialmedia a:hover{
     color:#ff9800;
  }
  .nav {
@@ -99,8 +100,12 @@ html{
     html{
         font-size: 59%;
     }
-}
-@media(max-width : 480px){
+    .Navbox{
+        justify-content: flex-end;
+       
+       
+         
+    }
     .nav{
         background: black;
         position: absolute;
@@ -139,4 +144,7 @@ html{
     .hamicon{
         display: block;
     }
+}
+@media(max-width : 480px){
+  
 }

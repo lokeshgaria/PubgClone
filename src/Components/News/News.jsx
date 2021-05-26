@@ -1,5 +1,5 @@
 import React from "react";
-import background from "./assets/background.jpg";
+ 
 import "./News.css";
 const News = () => {
   return (
