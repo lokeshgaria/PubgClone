@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <>
-      <AppBar className={classes.navbar} component={Box} position="absolute">
+      <AppBar className={classes.navbar} component={Box} >
         <Toolbar className={classes.tolbar}>
           <Box>
             <img src={brand} alt="sd" className="BrandLogo" />
@@ -58,12 +58,12 @@ const Navbar = () => {
             >
               <ul className="first">
                 <li>
-                  <NavLink to="/" className="navbarLinks"  onClick={toggleClass}>
+                  <NavLink to="/"  exact activeClassName="active" className="navbarLinks"  onClick={toggleClass}>
                     home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/news" className="navbarLinks"  onClick={toggleClass}>
+                  <NavLink to="/news" exact activeClassName="active" className="navbarLinks"  onClick={toggleClass}>
                     News
                   </NavLink>
                 </li>

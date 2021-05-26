@@ -1,0 +1,27 @@
+/*******
+Background Img
+************/
+.img {
+  width: 100%;
+  text-align: center;
+  background: #000 url(./assets/background.jpg) center 76px no-repeat;
+  background-size: cover;
+  padding: 130px 0 60px;
+}
+
+/*********
+media querries
+********/
+
+@media (max-width: 425px) {
+  .img {
+    background: #000 url(./assets/mobilebackground.jpg) center no-repeat;
+    background-size: 100%;
+    padding: 100px 0 40px;
+  }
+  .img h1{
+      font-size: 3rem;
+      padding: 3rem;
+      color :#ff9800;
+  }
+}

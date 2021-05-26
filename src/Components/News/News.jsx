@@ -1,11 +1,13 @@
 import React from "react";
-
+import background from "./assets/background.jpg";
+import "./News.css";
 const News = () => {
   return (
-    <div style={{ marginTop: "9rem" }}>
-    
-       <h1>News section</h1>
-    </div>
+    <>
+     <div className="img">
+       <h1>NEWS</h1>
+     </div>
+    </>
   );
 };
 
