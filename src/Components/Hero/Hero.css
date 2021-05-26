@@ -1,0 +1,21 @@
+
+video{
+    width: 100%;
+    height: auto;
+    
+}
+
+.mobilebg{
+    display: none;
+}
+
+@media (max-width : 780px){
+    video{
+        display: none;
+    }
+    .mobilebg{
+        display: block;
+        width: 100%;
+    }
+    
+}
