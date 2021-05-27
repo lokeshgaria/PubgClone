@@ -31,8 +31,6 @@ export const newsData = [
 ];
 
 
-
-
 export const SocialData = [
     {
      title : `BATTLEGROUNDS MOBILE INDIA is finally here! Pre-Register NOW for INDIA KA BATTLEGROUNDS and win exciting rewards!👉  `,

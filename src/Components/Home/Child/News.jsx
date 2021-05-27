@@ -34,7 +34,7 @@ const News = ({ title, cardData }) => {
                     <div className="NewstextContent">
                         <h1>{title}</h1>
 
-                        {title == "SOCIAL MEDIA" ? para : null}
+                        {title === "SOCIAL MEDIA" ? para : null}
                     </div>
 
                     <Grid container spacing={2} >

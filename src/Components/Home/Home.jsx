@@ -5,12 +5,13 @@ import Hero from "./Child/Hero";
 import Register from "./Child/Register";
 import Rewards from "./Child/Rewards"
 import News from "./Child/News"
+import AppStore from "./Child/AppStore";
 import "./Home.css";
 //importing news data
 
-import  {newsData ,SocialData} from "./Child/Newsdata";
+import { newsData, SocialData } from "./Child/Newsdata";
 //importing socialMediadata
- 
+
 const Home = () => {
   return (
     <>
@@ -21,9 +22,11 @@ const Home = () => {
       {/*Registration Reward here*/}
       <Rewards />
       {/** NEWS section here*/}
-      <News  title="NEWS" cardData={newsData} />
-       {/** Social Media*/}
-       <News title="SOCIAL MEDIA" cardData={SocialData} />
+      <News title="NEWS" cardData={newsData} />
+      {/** Social Media*/}
+      <News title="SOCIAL MEDIA" cardData={SocialData} />
+      {/** Appstore Section */}
+      <AppStore />
     </>
 
   );
