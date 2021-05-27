@@ -6,7 +6,11 @@ import Register from "./Child/Register";
 import Rewards from "./Child/Rewards"
 import News from "./Child/News"
 import "./Home.css";
+//importing news data
 
+import  {newsData ,SocialData} from "./Child/Newsdata";
+//importing socialMediadata
+ 
 const Home = () => {
   return (
     <>
@@ -17,7 +21,9 @@ const Home = () => {
       {/*Registration Reward here*/}
       <Rewards />
       {/** NEWS section here*/}
-      <News />
+      <News  title="NEWS" cardData={newsData} />
+       {/** Social Media*/}
+       <News title="SOCIAL MEDIA" cardData={SocialData} />
     </>
 
   );

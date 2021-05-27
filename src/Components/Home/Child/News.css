@@ -14,11 +14,11 @@
      
  }
  .NewstextContent h1{
-    font-size: 6rem;
+    font-size: 5rem;
     text-transform: uppercase;
-   
+    color: #2c2b2b;
     
-    letter-spacing: 1.5px;
+     
  }
 
  .img-fluid{
@@ -32,7 +32,32 @@
  .CardContent  span{
     color: grey;
 }
-
+.icons{
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.facebook , .instagram, .youtube{
+    border: 1px solid #7d7474;
+    font-size: 2.5rem;
+    border-radius: 67%;
+    color: #fff;
+    margin: 3px;
+    width: 5rem;
+    background: #2c2b2b;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    justify-content: center;
+}
+.facebook:hover , .instagram:hover, .youtube:hover{
+    background: #fdbb07;
+    border: 1px solid #fdbb07;
+    cursor: pointer;
+}
 @media(max-width:780px){
     .CardContent{
         padding: 2.5rem;
