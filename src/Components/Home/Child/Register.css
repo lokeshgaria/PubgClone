@@ -1,9 +1,9 @@
 .RegisterDiv{
     background: url(./assets/RegisterBg.jpg);
     background-size: cover;
-    background-position: center;
+    padding : 8rem 0;
     position:  relative;
-         
+          
 }
 
 .Register_Para{
@@ -17,8 +17,29 @@
     letter-spacing: 0.5px;
 }
 
-.img-fluid{
+.videowrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
      
 }
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
  
+ @media (max-width : 780px) {
+    html {
+        font-size: 40% !important;
+      }
+ }

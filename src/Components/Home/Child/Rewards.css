@@ -1,0 +1,51 @@
+.RewardContainer{
+    background: url(./assets/preRegBg.jpg);
+    background-size: 100% 100%;
+    padding : 8rem 0;
+    position:  relative;
+}
+.showReward{
+    display: block;
+}
+.hideReward {
+    display: none;
+}
+.textContent{
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.textContent h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+   
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+.textContent h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    
+    color: #e78a00;
+     
+}
+
+.textContent p{
+    font-size: 3rem;
+    color: #fff;
+}
+@media(max-width:780px){
+    .showReward{
+        display: none;
+    }
+    .hideReward {
+        display: block;
+    }
+}
+
+.imageDisplay img{
+    width: 100%;
+}

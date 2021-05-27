@@ -1,0 +1,48 @@
+ .newsContainer{
+     background: url(./assets/RegisterBg.jpg);
+     background-size: 100% 100%;
+ }
+ 
+
+ .NewstextContent{
+     
+        text-align: center;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 3rem;
+     
+ }
+ .NewstextContent h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+   
+    
+    letter-spacing: 1.5px;
+ }
+
+ .img-fluid{
+     width : 100%
+ }
+ .CardContent{
+    padding: 1.5rem;
+    font-size: 2rem;
+ }
+  
+ .CardContent  span{
+    color: grey;
+}
+
+@media(max-width:780px){
+    .CardContent{
+        padding: 2.5rem;
+        font-size: 5rem;
+     }
+}
+
+@media(max-width:480px){
+    .CardContent{
+        padding: 2.5rem;
+        font-size: 3rem;
+     }
+}

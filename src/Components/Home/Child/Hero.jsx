@@ -10,7 +10,7 @@ import rightbtm from "./assets/rightBootom.png";
 const Hero = () => {
     return (
         <>
-            <Box className="visual_main" position=" ">
+            <Box className="visual_main" position=" "  >
                 <video autoPlay loop>
                     <source src={bg} type="video/mp4" />
                 </video>

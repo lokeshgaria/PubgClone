@@ -4,9 +4,7 @@
     margin: 0;
     padding: 0;
 }
-html{
-    font-size: 62.5%;
-}
+ 
  
 .BrandLogo{
  padding: 7px;
@@ -97,9 +95,7 @@ html{
  media querries
  ****************/
 @media(max-width : 780px){
-    html{
-        font-size: 59%;
-    }
+    
     .Navbox{
         justify-content: flex-end;
        
@@ -145,6 +141,4 @@ html{
         display: block;
     }
 }
-@media(max-width : 480px){
-  
-}
+ 
