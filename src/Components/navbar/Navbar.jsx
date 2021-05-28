@@ -70,15 +70,15 @@ const Navbar = () => {
                     News
                   </NavLink>
                 </li>
-                <li className="support"  onClick={toggleClass}>
-                  {" "}
+                <li className=""  onClick={toggleClass}>
+                
                   <a
                     href="https://help.battlegroundsmobileindia.com/a/support/"
                     target="_blank"
                     rel="noreferrer"
-                    className="navbarLinks"
+                    className="navbarLinks support"
                   >
-                    Support
+                    Support <i class="fas fa-external-link-alt"></i>
                   </a>
                 </li>
               </ul>
@@ -92,11 +92,11 @@ const Navbar = () => {
               item
               xl={1}
               lg={2}
-              sm={3}
+              sm={6}
               
               xs={12}
               component={Box}
-              
+               
             >
               <ul className="socialmedia">
                 <li>

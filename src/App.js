@@ -7,13 +7,16 @@ import Footer from "./Components/Footer/Footer"
 import { Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="parent">
+    <div className="contentWrap">
+    <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/news" component={News} />
       </Switch>
-      <Footer />
+      <Footer   />
+    </div>
+      
     </div>
   );
 }

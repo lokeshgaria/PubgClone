@@ -33,7 +33,7 @@ const News = ({ title, cardData }) => {
                 <Container>
                     <div className="NewstextContent">
                         <h1>{title}</h1>
-
+                            
                         {title === "SOCIAL MEDIA" ? para : null}
                     </div>
 
@@ -86,5 +86,6 @@ const News = ({ title, cardData }) => {
         </>
     )
 }
+
 
 export default News

@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <>
             <Box className="visual_main" position=" "  >
-                <video autoPlay loop>
+                <video autoPlay={true} muted={true} loop>
                     <source src={bg} type="video/mp4" />
                 </video>
                 <img src={Mobilebg} alt="" className="mobilebg" />
