@@ -3,3 +3,44 @@
     background-size: cover;
     background-position: center;
 }
+
+.contentApp{
+   
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.content{
+   
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: 'Teko';
+    text-align: center;
+    line-height: 3.2rem;
+    padding: 2rem;
+    color: rgb(66, 60, 60);
+}
+.playstore{
+    display: flex;
+    /* width: 15%; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    position: relative;
+}
+
+.playstore img{
+    background: #fff;
+    padding: -2rem;
+    padding: 0px;
+   
+    text-align: center;
+    padding: .8rem;
+    position: relative;
+    width: 15rem
+}
+
+ 

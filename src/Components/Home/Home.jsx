@@ -27,6 +27,8 @@ const Home = () => {
       <News title="SOCIAL MEDIA" cardData={SocialData} />
       {/** Appstore Section */}
       <AppStore />
+
+       
     </>
 
   );

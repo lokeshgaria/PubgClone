@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(7, 7, 7);
+  color: rgb(167, 148, 148);
+}
+
+.Footercontent{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.brandlogo{
+    
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.brandlogo img{
+    width: 15rem;
+}
+.policy{
+    margin-right: 1rem;
+    border-right: 1px solid #636362;
+    padding-right: 1rem;
+}

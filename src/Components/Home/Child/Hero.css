@@ -24,12 +24,12 @@ html {
      
   }
   .visual_btn {
+    
     position: absolute;
-  
-    right: 0;
-    top: 200px;
-    width: 100%;
-    text-align: left;
+        right: 0;
+        top: 62%;
+        width: 100%;
+        text-align: left;
   }
   .visual_btn2 {
      
@@ -96,9 +96,11 @@ html {
     text-transform: uppercase;
   }
   .visual {
-    top: 12rem;
-    height: 30rem;
-  
+   
+    width: 44%;
+    height: 39%;
+        top: 15%;
+   
     position: absolute;
     left: 3%;
   }
@@ -131,7 +133,8 @@ html {
       display: block;
       left: 0;
       right: 0;
-     
+      width: 100%;
+      height: auto;
      }
      .hide3{
        display: block !important;

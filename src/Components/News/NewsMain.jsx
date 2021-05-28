@@ -7,7 +7,7 @@ const NewsMain = () => {
   return (
     <>
      <div className="img">
-       <h1>NEWS</h1>
+       <h1 className="newHead">NEWS</h1>
       
      </div>
      <News title=" " cardData={newsData}></News>

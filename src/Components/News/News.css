@@ -19,9 +19,12 @@ media querries
     background-size: 100%;
     padding: 100px 0 40px;
   }
-  .img h1{
-      font-size: 3rem;
-      padding: 3rem;
-      color :#ff9800;
-  }
+  
+}
+
+
+.newHead{
+  font-size: 6.5rem;
+    letter-spacing: 1.5px;
+    color: orange;
 }
