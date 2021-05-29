@@ -78,7 +78,7 @@ const Navbar = () => {
                     rel="noreferrer"
                     className="navbarLinks support"
                   >
-                    Support <i class="fas fa-external-link-alt"></i>
+                    Support Please <i class="fas fa-external-link-alt"></i>
                   </a>
                 </li>
               </ul>
