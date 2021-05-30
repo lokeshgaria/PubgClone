@@ -10,7 +10,7 @@ import { Box, Grid, Container, Card, CardActionArea, CardMedia, Button, Typograp
 const para =
 
     <div className="icons">
-       
+
         <div className="facebook">
             <i className="fab fa-facebook-f"></i>
         </div>
@@ -33,7 +33,7 @@ const News = ({ title, cardData }) => {
                 <Container>
                     <div className="NewstextContent">
                         <h1>{title}</h1>
-                            
+
                         {title === "SOCIAL MEDIA" ? para : null}
                     </div>
 
@@ -55,9 +55,9 @@ const News = ({ title, cardData }) => {
                                         borderRadius={0}>
                                         <CardActionArea>
                                             <CardMedia
-                                                title="News"
+                                                className="NewsImg"
                                             >
-                                                <img src={item.img} alt="" className="img-fluid" />
+                                                <img src={item.img} alt="" className="img-fluid " />
                                             </CardMedia>
                                             <Box className="CardContent">
                                                 <p >{item.title}
