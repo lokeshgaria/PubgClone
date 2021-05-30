@@ -1,5 +1,5 @@
 #BATTLE GROUNDS MOBILE CLONE USING REACT
-
+![image](https://user-images.githubusercontent.com/63031525/120094073-da9ebf00-c13b-11eb-9c2e-d6b3df5962b3.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
